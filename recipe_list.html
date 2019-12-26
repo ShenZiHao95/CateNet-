@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>美食菜单</title>
+  <link rel="stylesheet" href="css/comm.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/recipe_list.css">
+</head>
+<body>
+<div id="header">
+  <div class="header_top">
+    <a href="" class="logo_pic"></a>
+    <div class="search_bar">
+      <input type="text" class="search_input" placeholder="请输入菜谱/食材/菜单/作者">
+      <button class="search_btn">搜 索</button>
+    </div>
+    <div class="third_login">
+      <a href="#" class="QQ">QQ登录</a>
+      <a href="#" class="wb">微博登录</a>
+      <a href="#" class="reg">注册</a>
+      <a href="#" class="login">登录</a>
+    </div>
+  </div>
+</div>
+<div class="nav">
+  <ul id="main_nav">
+    <li class=""><a href="#" class="link pngFix"><strong>首页</strong></a></li>
+    <li class="hasmore">
+      <a href="#" class="menus"><strong>菜谱大全</strong></a>
+      <div class="content_more">
+        <div class="contents_div">
+          <div class="content_items">
+            <dl class="clearfix">
+              <dt><a href="#">家常菜谱</a></dt>
+              <dd><a href="#">家常菜</a></dd>
+              <dd><a href="#">凉菜</a></dd>
+              <dd><a href="#">素食</a></dd>
+              <dd><a href="#">晚餐</a></dd>
+              <dd><a href="#">私家菜</a></dd>
+              <dd><a href="#">热菜</a></dd>
+              <dd><a href="#">海鲜</a></dd>
+              <dd><a href="#">孕妇</a></dd>
+              <dd><a href="#">早餐</a></dd>
+              <dd><a href="#">午餐</a></dd>
+              <dd><a href="#">甜品点心</a></dd>
+              <dd><a href="#">汤粥</a></dd>
+              <dd><a href="#">宝宝食谱-婴儿食谱</a></dd>
+              <dd><a href="#">糕点主食</a></dd>
+              <dd><a href="#">微波炉</a></dd>
+            </dl>
+          </div>
+          <div class="content_items">
+            <dl class="clearfix">
+              <dt><a href="">中华菜系</a></dt>
+              <dd><a href="">川菜</a></dd>
+              <dd><a href="">粤菜</a></dd>
+              <dd><a href="">东北菜</a></dd>
+              <dd><a href="">湘菜</a></dd>
+              <dd><a href="">鲁菜</a></dd>
+              <dd><a href="/">浙菜</a></dd>
+              <dd><a href="">湖北菜</a></dd>
+              <dd><a href="">清真菜</a></dd>
+            </dl>
+          </div>
+          <div class="content_items">
+            <dl class="clearfix">
+              <dt><a href="">各地小吃</a></dt>
+              <dd><a href="">四川小吃</a></dd>
+              <dd><a href="">广东小吃</a></dd>
+              <dd><a href="">北京小吃</a></dd>
+              <dd><a href="">陕西小吃</a></dd>
+            </dl>
+          </div>
+          <div class="content_items clear_br">
+            <dl class="clearfix">
+              <dt><a href="">外国菜谱</a></dt>
+              <dd><a href="">韩国料理</a></dd>
+              <dd><a href="">日本料理</a></dd>
+              <dd><a href="">法国菜</a></dd>
+              <dd><a href="">意大利餐</a></dd>
+            </dl>
+          </div>
+          <div class="content_items clear_br">
+            <dl class="clearfix">
+              <dt><a href="">烘焙</a></dt>
+              <dd><a href="">蛋糕面包</a></dd>
+              <dd><a href="">饼干配方</a></dd>
+              <dd><a href="">甜品点心</a></dd>
+            </dl>
+          </div>
+          <div class="content_items clear_br clear_br_bottom">
+            <dl class="clearfix">
+              <dt><a href="">厨房百科</a></dt>
+              <dd><a href="">摆盘围边</a></dd>
+              <dd><a href="">烹饪技巧</a></dd>
+              <dd><a href="">生活妙招</a></dd>
+              <dd><a href="">美食专题</a></dd>
+            </dl>
+          </div>
+          <div class="content_items clear_br clear_br_bottom">
+            <dl class="clearfix">
+              <dt><a href="">食材百科</a></dt>
+              <dd><a href="">蔬菜</a></dd>
+              <dd><a href="">水果</a></dd>
+              <dd><a href="">谷类</a></dd>
+            </dl>
+          </div>
+          <div class="bgitem"></div>
+        </div>
+      </div>
+    </li>
+    <li class="hasmore">
+      <a href="" class="eat_health"><strong>饮食健康</strong></a>
+      <div class="content_more">
+        <div class="contents_div">
+          <div class="content_items">
+            <dl class="clearfix">
+              <dt><a href="">饮食健康</a></dt>
+              <dd><a href="">饮食小常识</a></dd>
+              <dd><a href="">美容瘦身</a></dd>
+              <dd><a href="">食品安全</a></dd>
+              <dd><a href="">养生妙方</a></dd>
+              <dd><a href="">饮食禁忌</a></dd>
+              <dd><a href="">中医保健</a></dd>
+              <dd><a href="">母婴健康饮食</a></dd>
+              <dd><a href="">饮食新闻</a></dd>
+            </dl>
+          </div>
+          <div class="content_items change_width">
+            <dl class="clearfix">
+              <dt><a href="">功能性调理</a></dt>
+              <dd><a href="">清热去火</a></dd>
+              <dd><a href="">减肥</a></dd>
+              <dd><a href="">祛痰</a></dd>
+              <dd><a href="">乌发</a></dd>
+              <dd><a href="">滋阴补肾</a></dd>
+              <dd><a href="">健脾开胃</a></dd>
+              <dd><a href="">消化不良</a></dd>
+              <dd><a href="">清热解毒</a></dd>
+              <dd><a href="">补阳壮阳</a></dd>
+              <dd><a href="">增肥</a></dd>
+            </dl>
+          </div>
+          <div class="content_items clear_space">
+            <dl class="clearfix">
+              <dt><a href="">人群膳食</a></dt>
+              <dd><a href="">孕妇</a></dd>
+              <dd><a href="">老人</a></dd>
+              <dd><a href="">产妇</a></dd>
+              <dd><a href="">哺乳期</a></dd>
+              <dd><a href="">青少年</a></dd>
+              <dd><a href="">幼儿</a></dd>
+              <dd><a href="">学龄期儿童</a></dd>
+            </dl>
+          </div>
+          <div class="content_items clear_space">
+            <dl class="clearfix">
+              <dt><a href="">疾病调理</a></dt>
+              <dd><a href="">糖尿病</a></dd>
+              <dd><a href="">高血压</a></dd>
+              <dd><a href="">痛风</a></dd>
+              <dd><a href="">胃炎</a></dd>
+              <dd><a href="">痔疮</a></dd>
+              <dd><a href="">更年期</a></dd>
+              <dd><a href="/">甲状腺</a></dd>
+            </dl>
+          </div>
+          <div class="content_items clear_space clear_space_bottom">
+            <dl class="clearfix">
+              <dt><a href="">脏腑调理</a></dt>
+              <dd><a href="">感冒</a></dd>
+              <dd><a href="">补肾</a></dd>
+              <dd><a href="">阳痿早泄</a></dd>
+              <dd><a href="">补血</a></dd>
+              <dd><a href="">便秘</a></dd>
+              <dd><a href="">腹泻</a></dd>
+              <dd><a href="">活血化瘀</a></dd>
+            </dl>
+          </div>
+          <div class="bgitem_health"></div>
+        </div>
+      </div>
+    </li>
+    <li class="current"><a href="#" class="link pngFix"><strong>美食菜单</strong></a>
+    </li>
+    <li class="furniture_menu">
+      <a href="#" class="furniture_a">
+        <strong>家居馆</strong>
+      </a>
+    </li>
+    <li>
+      <a href="#" class="good_food">
+        <strong>美食达人</strong>
+        <img src="images/index/20160909164810_443.png">
+      </a>
+    </li>
+    <li class="">
+      <a href="#" class="link pngFix"><strong>菜谱视频</strong></a></li>
+    <li class="">
+      <a href="#" class="link pngFix"><strong>产品下载</strong></a>
+    </li>
+  </ul>
+</div>
+<div class="main_w">
+  <div class="main">
+    <div class="menu_text">
+      菜单是你的一桌饭
+      <span class="max_text">
+                <a class="max_new" href="#">最新</a>　
+                <a class="max_hot" href="#">最热</a>
+            </span>
+    </div>
+    <div class="cdlist_main" id="cdlist">
+      <!--            <span class="loading">加载中...</span>-->
+      <div class="cdlist_w">
+        <div class="cdlist_item_style">
+          <h3><a href="#">我的菜单</a></h3>
+          <span class="cpcount"><em>10</em>篇菜谱</span>
+          <div class="info">
+            <dl>
+              <dd><strong class="tag">2016-12-01 21:01</strong></dd>
+            </dl>
+            <a class="author" href="https://i.meishi.cc/cook.php?id=9140289">
+              <img src="images/header_pic/tx2_1.png"><strong>杜度渡</strong>
+            </a>
+          </div>
+          <ul class="cplist">
+            <li><a href="#">
+              <img src="images/menu_imgs/glfs1.jpg"><h4>干捞粉丝</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/hjlsswy.jpg"><h4>黑椒芦笋三文鱼柳</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/gbjd.jpeg"><h4>川味宫爆鸡丁</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/nypf.jpg"><h4>奶油泡芙</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/mymbg.jpg"><h4>蔓越莓饼干</h4></a></li>
+          </ul>
+        </div>
+        <div class="cdlist_item_style">
+          <h3><a href="#">家常菜（肉）</a></h3>
+          <span class="cpcount"><em>10</em>篇菜谱</span>
+          <div class="info">
+            <dl>
+              <dd><strong class="tag">2019-03-24 00:46</strong></dd>
+            </dl>
+            <a class="author" href="https://i.meishi.cc/cook.php?id=13661804">
+              <img src="images/header_pic/tx2_3.jpg"><strong>strive、王先生</strong>
+            </a>
+          </div>
+          <ul class="cplist">
+            <li><a href="#">
+              <img src="images/menu_imgs/hsyk.jpg"><h4>红烧鱼块</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/gbfc.jpg"><h4>干煸肥肠</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/mckr.jpg"><h4>梅菜扣肉</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/njxcr.jpg"><h4>农家小炒肉</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/jcxcj.jpg"><h4>家常小炒鸡</h4></a></li>
+          </ul>
+        </div>
+        <div class="cdlist_item_style">
+          <h3><a href="#">我的菜单</a></h3>
+          <span class="cpcount"><em>10</em>篇菜谱</span>
+          <div class="info">
+            <dl>
+              <dd><strong class="tag">2018-11-04 20:05</strong></dd>
+            </dl>
+            <a class="author" href="https://i.meishi.cc/cook.php?id=12912685">
+              <img src="images/header_pic/tx2_2.png"><strong>Hickey8098</strong>
+            </a>
+          </div>
+          <ul class="cplist">
+            <li><a href="#">
+              <img src="images/menu_imgs/zsjt.jpg"><h4>照烧鸡腿</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/hmzt.jpg"><h4>红焖猪蹄</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/tcyk.jpg"><h4>糖醋鱼块</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/dbf.jpg"><h4>蛋包饭</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/gbr.jpg"><h4>锅包肉</h4></a></li>
+          </ul>
+        </div>
+        <div class="cdlist_item_style">
+          <h3><a href="#">我的菜单</a></h3>
+          <span class="cpcount"><em>10</em>篇菜谱</span>
+          <div class="info">
+            <dl>
+              <dd><strong class="tag">2019-05-19 18:54</strong></dd>
+            </dl>
+            <a class="author" href="https://i.meishi.cc/cook.php?id=13791580">
+              <img src="images/header_pic/tx2_4.png"><strong>杰米7798287727</strong>
+            </a>
+          </div>
+          <ul class="cplist">
+            <li><a href="#">
+              <img src="images/menu_imgs/schlb.jpg"><h4>素炒胡萝卜丝</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/bcyy.jpg"><h4>爆炒鱿鱼</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/jgjz.jpg"><h4>酒鬼鸡爪</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/dt.jpg"><h4>在家也能烤出美味蛋挞</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/mt.jpg"><h4>馒头</h4></a></li>
+          </ul>
+        </div>
+        <div class="cdlist_item_style">
+          <h3><a href="#">我的菜单</a></h3>
+          <span class="cpcount"><em>12</em>篇菜谱</span>
+          <div class="info">
+            <dl>
+              <dd><strong class="tag">2019-10-03 21:56</strong></dd>
+            </dl>
+            <a class="author" href="https://i.meishi.cc/cook.php?id=14173572">
+              <img src="images/header_pic/tx2_5.png"><strong>夢夢薛(来自微信.)</strong>
+            </a>
+          </div>
+          <ul class="cplist">
+            <li><a href="#">
+              <img src="images/menu_imgs/xbg.jpg"><h4>晚餐炒个杏鲍菇，老公对着这盘子素菜，吃了两碗米饭，直嚷好过瘾</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/nmf.jpg"><h4>蒸红豆糯米饭</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/cdnmf.jpg"><h4>赤豆糯米饭</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/xlb.jpg"><h4>小笼包</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/hmmt.jpg"><h4>黑面馒头</h4></a></li>
+          </ul>
+        </div>
+        <div class="cdlist_item_style">
+          <h3><a href="#">我的菜单</a></h3>
+          <span class="cpcount"><em>11</em>篇菜谱</span>
+          <div class="info">
+            <dl>
+              <dd><strong class="tag">2019-11-07 15:21</strong></dd>
+            </dl>
+            <a class="author" href="https://i.meishi.cc/cook.php?id=14236128">
+              <img src="images/header_pic/tx2_8.png"><strong>妞子6243</strong>
+            </a>
+          </div>
+          <ul class="cplist">
+            <li><a href="#">
+              <img src="images/menu_imgs/szb.jpg"><h4>自制手抓饼</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/ziszb.jpg"><h4>家庭自制手抓饼</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/srwwc.jpg"><h4>蒜蓉粉丝娃娃菜</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/yt.jpg"><h4>炸油条</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/qcxr.jpg"><h4>清炒虾仁</h4></a></li>
+          </ul>
+        </div>
+        <div class="cdlist_item_style">
+          <h3><a href="#">我的菜单</a></h3>
+          <span class="cpcount"><em>10</em>篇菜谱</span>
+          <div class="info">
+            <dl>
+              <dd><strong class="tag">2019-04-27 19:02</strong></dd>
+            </dl>
+            <a class="author" href="https://i.meishi.cc/cook.php?id=13732158">
+              <img src="images/header_pic/tx2_9.png"><strong>杰米0898967944</strong>
+            </a>
+          </div>
+          <ul class="cplist">
+            <li><a href="#">
+              <img src="images/menu_imgs/jnp.jpg"><h4>煎牛排</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/oqc.jpg"><h4>荷塘小炒</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/srcx.jpg"><h4>蒜蓉菜心</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/hzsc.jpg"><h4>蒜蓉蚝汁生菜</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/hspg.jpg"><h4>红烧排骨</h4></a></li>
+          </ul>
+        </div>
+        <div class="cdlist_item_style">
+          <h3><a href="#">我的菜单</a></h3>
+          <span class="cpcount"><em>10</em>篇菜谱</span>
+          <div class="info">
+            <dl>
+              <dd><strong class="tag">2017-10-09 12:22</strong></dd>
+            </dl>
+            <a class="author" href="https://i.meishi.cc/cook.php?id=10396443">
+              <img src="images/header_pic/tx2_2.png"><strong>大花西柚咿呀哟</strong>
+            </a>
+          </div>
+          <ul class="cplist">
+            <li><a href="#">
+              <img src="images/menu_imgs/kejc.jpg"><h4>可乐鸡翅</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/hgr2.jpg"><h4>回锅肉</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/hgr3.jpg"><h4>回锅肉</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/stpg.jpg"><h4>酸甜排骨</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/ggtj.jpg"><h4>干锅田鸡</h4></a></li>
+          </ul>
+        </div>
+        <div class="cdlist_item_style">
+          <h3><a href="#">尝试菜品</a></h3>
+          <span class="cpcount"><em>10</em>篇菜谱</span>
+          <div class="info">
+            <dl>
+              <dd><strong class="tag">2019-12-17 23:23</strong></dd>
+            </dl>
+            <a class="author" href="https://i.meishi.cc/cook.php?id=1622504">
+              <img src="images/header_pic/tx2_6.png"><strong> 梧桐木</strong>
+            </a>
+          </div>
+          <ul class="cplist">
+            <li><a href="#">
+              <img src="images/menu_imgs/kejc.jpg"><h4>可乐鸡翅</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/xrgd.jpg"><h4>虾仁烘蛋</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/kejc.jpg"><h4>可乐鸡翅</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/fzd.jpg"><h4>虾仁豆腐蒸蛋</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/ts.jpg"><h4>糖蒜</h4></a></li>
+          </ul>
+        </div>
+        <div class="cdlist_item_style">
+          <h3><a href="#">我的菜单</a></h3>
+          <span class="cpcount"><em>10</em>篇菜谱</span>
+          <div class="info">
+            <dl>
+              <dd><strong class="tag">2019-08-17 18:22</strong></dd>
+            </dl>
+            <a class="author" href="https://i.meishi.cc/cook.php?id=13997414">
+              <img src="images/header_pic/tx2_4.png"><strong>杰米1010566517</strong>
+            </a>
+          </div>
+          <ul class="cplist">
+            <li><a href="#">
+              <img src="images/menu_imgs/bz1.jpg"><h4>西葫芦鸡蛋素包子</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/bz2.jpg"><h4>西葫芦鸡蛋小笼包</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/sgfs.jpg"><h4>砂锅粉丝</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/dg.jpg"><h4>南瓜奶油蛋糕</h4></a></li>
+            <li><a href="#">
+              <img src="images/menu_imgs/ohs.jpg"><h4>七日减肥餐，月瘦10斤之莲藕芹菜</h4></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

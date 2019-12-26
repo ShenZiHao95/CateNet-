@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>美食网</title>
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="login_main">
+    <div class="login_nav">
+        <div class="login_navw">
+            <a href="https://www.meishij.net/" class="logo"></a>
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">菜谱大全</a></li>
+                <li><a href="#">饮食健康</a></li>
+                <li><a href="#">美食菜单</a></li>
+                <li><a href="#">美食达人</a></li>
+                <li><a href="#">菜谱视频</a></li>
+                <li><a href="#">产品下载</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="login_title">欢迎来到美食杰</div>
+    <div id="login_page">
+        <div class="login_box">
+            <div class="login_box-top">
+                <a href="javascript:switch_login_reg(1);" class="current" id="login_phone_tab">手机号登录</a>
+                　|　
+                <a href="javascript:switch_login_reg(2);" class="" id="login_pwd_tab">账号密码登录</a>
+            </div>
+            <div class="login_box_main left" id="judge_direction_isleft">
+                <div class="login_box_phone">
+                    <div class="login_item">
+                        <input id="login_mobile" type="text" name="username" class="phone" placeholder="请输入手机号">
+                    </div>
+                    <div class="login_item">
+                        <input id="login_code" type="text" class="code" name="password" placeholder="请输入验证码">
+                        <canvas id="can_code" onclick="dj(1);" title="看不清，换一张"></canvas>
+                    </div>
+                    <div class="login_item">
+                        <label>
+                            <input type="checkbox" checked="checked" class="auto_login" name="cookietime"> 下次自动登录　　
+                            <a href="#" class="forget_pwd">忘记密码？</a></label>
+                    </div>
+                    <div class="login_item">
+                        <button class="btn_login">登 录</button>
+                    </div>
+                </div>
+                <div class="login_box_pwd">
+                    <div class="login_item">
+                        <input type="text" class="uname_msg" name="username" placeholder="请输入账号">
+                    </div>
+                    <div class="login_item">
+                        <input type="password" class="password_msg" name="password" placeholder="请输入密码">
+                    </div>
+                    <div class="login_item">
+                        <label>
+                            <input type="checkbox" checked="checked" class="auto_login" name="cookietime"> 下次自动登录　　
+                            <a href="#" class="forget_pwd">忘记密码？</a></label>
+                    </div>
+                    <div class="login_item">
+                        <button class="btn_login">登 录</button>
+                    </div>
+                </div>
+            </div>
+            <div class="login_box_reg" id="judge_direction_istop">
+                <div class="reg_page_top">
+                    <span class="current">注册美食杰</span>
+                </div>
+                <div class="login_box_phone">
+                    <div class="login_item">
+                        <input id="login_mobile_reg" type="text" name="username" class="phone" placeholder="请输入手机号">
+                    </div>
+                    <div class="login_item">
+                        <input id="login_code_reg" type="text" class="code" name="password" placeholder="请输入验证码">
+                        <canvas id="can_code_reg" onclick="dj(2);" title="看不清，换一张"></canvas>
+                    </div>
+                    <div class="login_item">
+                        <label>
+                            <input type="checkbox" checked="checked" class="auto_login" name="cookietime"> 我已阅读并且同意美食杰
+                            <a href="#" target="_blank">《用户协议》</a>和<a href="#" target="_blank">《隐私政策》</a>
+                        </label>
+                    </div>
+                    <div class="login_item">
+                        <button class="btn_login">注 册</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:switch_login_reg(3);" class="golink" id="nl_gozc">没有账号？立即注册</a>
+        <div class="user_third_login">————————　使用第三方登录　————————</div>
+        <div class="thrid_login_main">
+            <div class="third_login_content">
+                <a href="#" class="a1">
+                    <span class="icon"></span>
+                </a>
+                <a href="#" class="a2">
+                    <span class="icon"></span>
+                </a>
+                <a href="#" class="a3">
+                    <span class="icon"></span>
+                </a>
+            </div>
+            <a href="javascript:openThirdLink();" class="third_login_text" id="more_dsf_btn">更多第三方登录方式</a>
+            <div class="third_login_link close" id="third_login_link">
+                <a href="#" class="a1">人人网</a>
+                <a href="#" class="a2">百度</a>
+                <a href="#" class="a3">开心网</a>
+                <a href="#" class="a4">盛大通行证</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/html_js/securityCode.js"></script>
+<script src="js/html_js/login_change.js"></script>
+</body>
+</html>

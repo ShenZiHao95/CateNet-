@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body {
+    font-weight: 400;
+    font-family: PingFang SC, Arial, Microsoft YaHei, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.topbar {
+    height: 6.25vw;
+    width: 100%;
+    position: fixed;
+    background: rgba(255, 255, 255, 0);
+    transition: all ease 0.3s;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.topbar_c {
+    width: 90%;
+    height: 6.25vw;
+    margin: 0px auto;
+    position: relative;
+}
+/*vw/vh相对于视口的宽度的百分比*/
+.logo {
+    width: 8.3333333vw;
+    height: 6.25vw;
+    background: url(../images/index/logo2.png) center no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.nav{
+    height: 6.25vw;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: right;
+    font-size: 0px;
+}

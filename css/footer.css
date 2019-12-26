@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/*底部样式*/
+.main_footer {
+    width: 100%;
+    background: url(../images/index/black75.png) repeat;
+    padding-bottom: 60px;
+    margin-top: 40px;
+}
+
+.footer_content {
+    width: 990px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.footer_logo {
+    height: 196px;
+    width: 600px;
+    background: url(../images/footer/footer_logo.png) left center no-repeat;
+    background-size: 70% auto;
+}
+
+.footer_logo a {
+    height: 100%;
+    width: 200px;
+    display: block;
+}
+
+.links {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links > div {
+    width: 105px;
+    height: 160px;
+    background: url(../images/footer/footerlinks.png) no-repeat;
+    position: relative;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.links > div.tengxun {
+    background-position: -105px 0;
+}
+
+.links > div.weixin {
+    background-position: -315px 0;
+}
+
+.links > div.download {
+    background-position: -210px 0;
+}
+
+.links > div > a > span {
+    display: block;
+    width: 105px;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    text-align: center;
+    padding-top: 79px;
+}
+
+.links > div > a:hover {
+    text-decoration: none;
+}
+
+.links > div > p {
+    width: 105px;
+    height: 36px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    color: #999;
+    line-height: 18px;
+    padding: 9px 0px;
+    text-align: center;
+}
+
+.links > div > p a {
+    color: #999;
+}
+
+.links > div > p a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer_bottom {
+    width: 990px;
+    margin: 0px auto;
+    border-top: 1px solid #444;
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+    font-size: 12px;
+}
+
+.footer_bottom ul {
+    display: flex;
+    width: 750px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.footer_bottom ul li a {
+    color: #999;
+
+}
+
+.footer_bottom p, p > a {
+    color: #666;
+}

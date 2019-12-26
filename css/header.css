@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/*设置header*/
+#header {
+    width: 100%;
+    background: #c90000;
+    height: 129px;
+}
+
+#header .header_top {
+    width: 990px;
+    height: 129px;
+    margin: 0px auto;
+    position: relative;
+}
+
+/*logo图标*/
+#header .header_top .logo_pic {
+    height: 129px;
+    width: 184px;
+    background: url(../images/index/logo2.png) -15px 9px no-repeat;
+    position: absolute;
+}
+
+/*顶部搜索栏*/
+#header .header_top .search_bar {
+    height: 129px;
+    width: 430px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+
+/*设置搜索input样式*/
+#header .header_top .search_bar .search_input {
+    height: 16px;
+    width: 326px;
+    padding: 16px;
+    line-height: 16px;
+    color: #999;
+    border: 2px solid #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+/*设置搜索按钮的样式*/
+#header .header_top .search_bar .search_btn {
+    width: 80px;
+    height: 36px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    background: #a8000f;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: absolute;
+}
+
+/*设置第三放登录图标a链接*/
+#header .header_top .third_login {
+    width: 300px;
+    height: 129px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header .header_top .third_login .QQ {
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 10px 0 30px;
+    border-radius: 4px;
+    background: url("../images/index/topdsflogin_icon.gif") no-repeat 3px 0px;
+    margin-right: 10px;
+}
+
+#header .header_top .third_login .QQ:hover {
+    background: rgba(0, 0, 0, 0.3) url("../images/index/topdsflogin_icon.gif") no-repeat 3px 0px;
+}
+
+#header .header_top .third_login .wb {
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 0 10px 0 30px;
+    background: url("../images/index/topdsflogin_icon.gif") no-repeat 4px -28px;
+    text-align: center;
+}
+
+#header .header_top .third_login .wb:hover {
+    background: rgba(0, 0, 0, 0.3) url("../images/index/topdsflogin_icon.gif") no-repeat 4px -28px;
+}
+
+#header .header_top .third_login .reg, .login {
+    height: 28px;
+    line-height: 28px;
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    padding: 0px 10px;
+    border-radius: 4px;
+}
+
+#header .header_top .third_login .reg:hover, .login:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/*设置nav菜单栏*/
+.nav {
+    height: 76px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.nav #main_nav {
+    height: 76px;
+    width: 990px;
+    margin: 0px auto;
+    list-style: none;
+    line-height: 76px;
+}
+
+.nav #main_nav li {
+    display: inline-block;
+}
+
+.nav #main_nav li a {
+    padding: 0px 24px;
+    color: #444;
+    font: bold 18px Microsoft Yahei, 黑体;
+}
+
+.nav #main_nav li:hover {
+    text-decoration: none;
+    background: #fafafa;
+}
+
+.nav #main_nav li:hover > a {
+    text-decoration: none;
+}
+
+/*设置更多菜单内容区域*/
+.nav #main_nav .hasmore {
+    background: url(../images/index/msj_menuarrow.gif) right center no-repeat;
+}
+
+.nav #main_nav .hasmore .content_more {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 76px;
+    display: none;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div {
+    width: 990px;
+    height: 270px;
+    margin: 0 auto;
+    background: #fafafa;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 18px 30px 24px;
+    position: relative;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .content_items dl {
+    height: 60px;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .content_items::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .clear_br, .clear_space {
+    margin-top: -15px;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .clear_br_bottom, .clear_space_bottom {
+    margin-top: -30px;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .content_items:not(:first-child) {
+    width: 385px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 10px 12px 0px;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .content_items dt {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .content_items dd {
+    display: inline-block;
+    vertical-align: top;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 14px;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .content_items dt a {
+    color: #ff3232;
+    font: 17px Microsoft Yahei, 黑体;
+    padding: 0;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .content_items dd a {
+    color: #999;
+    font-size: 12px;
+    padding: 0;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .bgitem {
+    background: url("../images/index/jccp_navbgg.png") right bottom no-repeat;
+    position: absolute;
+    right: 36px;
+    bottom: -30px;
+    height: 226px;
+    width: 406px;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .change_width {
+    width: 600px !important;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .bgitem {
+    background: url("../images/index/jccp_navbgg.png") right bottom no-repeat;
+    position: absolute;
+    right: -65px;
+    bottom: -30px;
+    height: 226px;
+    width: 406px;
+}
+
+.nav #main_nav .hasmore .content_more .contents_div .bgitem_health {
+    background: url("../images/index/ysjk_navbg.png") right bottom no-repeat;
+    position: absolute;
+    right: -83px;
+    bottom: -30px;
+    height: 208px;
+    width: 325px;
+}
+
+/*做menu栏的hover*/
+.nav #main_nav .hasmore:hover, .hasmore:hover {
+    background: none;
+}
+
+.nav #main_nav .hasmore:hover > div, .hasmore:hover > div {
+    display: block;
+    z-index: 1;
+}
+
+.nav #main_nav .good_food img {
+    display: inline-block;
+    margin-left: -7px;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+.nav #main_nav .current a strong {
+    display: inline-block;
+    border-bottom: 4px solid #ff3232;
+    height: 51px;
+}
